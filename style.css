@@ -16,14 +16,18 @@ body {
     MARTIN: margin+display and height offsets the background, and the bg-repeat and position functions make sure its center and doesnt play the same image multiple times */
 }
 
-
-
+/*
+img {
+  
+}
+*/
 .text_box {
     text-align: center;
     font-size: 52px;
     font-weight: 700;
+    text-shadow: 4px 4px #000000;
     margin-top: 0px;
     opacity: 1;
-    color: #9c9c9c;
+    color: #ffffff;
   /* MARTIN: intitialize the text inside the box */
 }
