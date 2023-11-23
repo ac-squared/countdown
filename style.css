@@ -16,11 +16,16 @@ body {
     MARTIN: margin+display and height offsets the background, and the bg-repeat and position functions make sure its center and doesnt play the same image multiple times */
 }
 
-/*
 img {
-  add the code to intilize the gift image here
+position: absolute;
+  bottom: 20px;    /* Move the image down by 20 pixels */
+  left: 30px;
 }
-*/
+.small-image {
+width: 550px;
+height: 350px;
+}
+
 .text_box {
     text-align: center;
     font-size: 52px;
