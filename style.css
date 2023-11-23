@@ -1,29 +1,27 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: Garamond, serif;
+    margin: 0px;
+    padding-left: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #55be6f;
-
-  /* MARTIN: intiialize the fonts, alining, colors, shit like that. You have to use dashes or the code wont work */
-
+    background-image: url("wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*
+    MARTIN: margin+display and height offsets the background, and the bg-repeat and position functions make sure its center and doesnt play the same image multiple times */
 }
+
+
 
 .text_box {
     text-align: center;
-    font-size: 24px;
-    margin-top: 20px;
-    color: #5d3c3c;
+    font-size: 52px;
+    font-weight: 700;
+    margin-top: 0px;
+    opacity: 1;
+    color: #9c9c9c;
   /* MARTIN: intitialize the text inside the box */
-}
-
-.cd_box {
-    background-color: #f06a6a;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-  /* MARTIN: create the countdown box itself */
 }
