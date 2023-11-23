@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 /*import font*/
+
+
+
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
@@ -16,6 +19,20 @@ body {
     MARTIN: margin+display and height offsets the background, and the bg-repeat and position functions make sure its center and doesnt play the same image multiple times */
 }
 
+  
+.snowfall {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url('snow01.gif') center center fixed;
+  background-size: cover; /* Ensure full coverage */
+  z-index: 2; /* Higher z-index than content */
+  pointer-events: none;
+  /* Prevent snow from overlapping hover effects */
+  /*Ham: positioned the transparent gif over the rest of the code*/
+}
 img {
 position: absolute;
   bottom: 20px;    /* Move the image down by 20 pixels */
