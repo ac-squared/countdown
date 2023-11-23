@@ -19,14 +19,15 @@ body {
     MARTIN: margin+display and height offsets the background, and the bg-repeat and position functions make sure its center and doesnt play the same image multiple times */
 }
 
-  
+
 .snowfall {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: url('snow01.gif') center center fixed;
+  background: url('snow.gif') center center fixed;
+  
   background-size: cover; /* Ensure full coverage */
   z-index: 2; /* Higher z-index than content */
   pointer-events: none;
